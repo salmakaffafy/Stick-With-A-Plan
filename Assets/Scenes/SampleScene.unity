@@ -434,7 +434,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 7.325077, y: 16.153233}
@@ -2049,13 +2049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a02c1ad1e683cab4289d1c7f7340a450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  car: {fileID: 0}
-  speed: 20
-  AI: 1
-  wait: 0
-  t: 0
-  gravityScale: 1
-  gravity: 9.81
 --- !u!61 &1993769282
 BoxCollider2D:
   m_ObjectHideFlags: 0
