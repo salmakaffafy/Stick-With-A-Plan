@@ -19,6 +19,11 @@ public class move : MonoBehaviour
         car.bodyType = RigidbodyType2D.Dynamic;
     }
 
+    void FixedUpdate()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {

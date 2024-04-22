@@ -7,6 +7,7 @@ public class CollisionDetector : MonoBehaviour
 {
     public Canvas collisionCanvas; // Reference to the canvas you want to show
 
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("EditorOnly"))
